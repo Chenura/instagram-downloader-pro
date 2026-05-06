@@ -1,0 +1,13 @@
+.ig-download-all {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    padding: 12px;
+    background: #ff3040;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    font-size: 14px;
+    z-index: 9999;
+    cursor: pointer;
+}
