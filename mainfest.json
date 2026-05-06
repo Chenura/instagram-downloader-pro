@@ -1,8 +1,8 @@
 {
   "manifest_version": 3,
   "name": "Instagram Downloader Pro",
-  "version": "1.0",
-  "description": "Download Instagram reels easily",
+  "version": "2.0",
+  "description": "Download Instagram reels, posts, carousel, and stories",
   "permissions": ["downloads", "activeTab", "scripting"],
   "host_permissions": ["https://www.instagram.com/*"],
   "background": {
