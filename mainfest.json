@@ -1,0 +1,24 @@
+{
+  "manifest_version": 3,
+  "name": "Instagram Downloader Pro",
+  "version": "1.0",
+  "description": "Download Instagram reels easily",
+  "permissions": ["downloads", "activeTab", "scripting"],
+  "host_permissions": ["https://www.instagram.com/*"],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "action": {
+    "default_popup": "popup/popup.html"
+  },
+  "icons": {
+    "128": "icons/icon128.png"
+  },
+  "content_scripts": [
+    {
+      "matches": ["https://www.instagram.com/*"],
+      "js": ["utils/polyfill.js", "content/main.js"],
+      "css": ["styles/style.css"]
+    }
+  ]
+}
